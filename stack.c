@@ -38,3 +38,5 @@ int pop(struct Stack* stack) {
 void push(struct Stack* stack, int op) {
     stack->array[++stack->top] = op;
 }
+
+//end
